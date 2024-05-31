@@ -18,4 +18,6 @@ The typical and boring steps:
 2. Install dependencies: `composer install`
 3. Run tests: `./vendor/bin/phpunit`
 
-**Author**: Juan Pablo Aqueveque, **email**: _jp at juque dot cl_
+**Author**: [Juan Pablo Aqueveque][1], **email**: _jp at juque dot cl_
+
+[1]:http://juque.cl
