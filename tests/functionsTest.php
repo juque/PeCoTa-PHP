@@ -50,4 +50,11 @@ class FunctionsTest extends TestCase
         $this->assertFalse($actual);
     }
 
+    public function testSanitizeName() 
+    {
+        $expected = "Captura-de-pantaa-2024-08-01-a-las-13.10.01.png";
+        $actual = sanitizeName("Captura de pantaña 2024-08-01 a la(s) 13.10.01.png");
+        $this->assertEquals($expected, $actual, 'They are no the same');
+    }
+
 }

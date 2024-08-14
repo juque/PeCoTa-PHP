@@ -74,3 +74,9 @@ function isPalindrome($str)
 
     return true;
 }
+
+function sanitizeName($str) {
+  $str = preg_replace('/\s+/', '-', $str);
+  $str = preg_replace("/[^a-z0-9\-\.]/i", '', $str);
+  return $str;
+}
